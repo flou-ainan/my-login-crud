@@ -1,0 +1,22 @@
+Things that im doing during the building of my-login-crud
+
+this time im going to start a github repo
+
+used gh repo create command
+
+now its time to install the node modules
+
+development
+npm install typescript nodemon ts-node @types/express @types/node --save-dev
+
+
+production
+npm install express mongoose dotenv
+
+add dev script
+"dev": "nodemon --exec ts-node ./src/index"
+
+add gitignore
+npx gitignore node
+
+
